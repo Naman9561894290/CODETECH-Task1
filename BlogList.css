@@ -1,0 +1,73 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f0f0f0;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;  /* Space out content horizontally */
+    align-items: center;  /* Vertically center the content */
+}
+
+button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-left: 20px;  /* Increased space between title and delete button */
+}
+
+button:hover {
+    background-color: #e63946;
+}
+
+a {
+    color: #007bff;
+    font-weight: bold;
+    margin-left: 20px;  /* Increased space between delete button and view link */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li span {
+    flex-grow: 1;  /* Title will take available space */
+    margin-right: 20px;  /* Increased space on the right side of the title */
+}
+
+
+.create-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.create-link:hover {
+    text-decoration: underline;
+}
